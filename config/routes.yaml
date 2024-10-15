@@ -1,0 +1,23 @@
+#index:
+# config/routes.yaml
+home:
+    path: /
+    controller: App\Controller\HomeController::index
+about:
+    path: /about
+    controller: App\Controller\AboutController::index
+
+
+projects:
+    path: /projects
+    controller: App\Controller\ProjectsController::index
+
+skills:
+    path: /skills
+    controller: App\Controller\skillsController::index
+contact:
+    path: /contact
+    controller: App\Controller\ContactController::index
+Signup:
+    path: /Signup
+    controller: App\Controller\SignupController::index

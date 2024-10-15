@@ -1,0 +1,56 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}skills{% endblock %}
+
+{% block content %}
+   <section id="SKILLS">
+         <nav>
+            <div class="logo">MyPortfo<span>L</span>io</div>
+            <ul>
+                <li><a href="{{ path('home') }}">HOME</a></li>
+                <li><a href="{{ path('about') }}">ABOUT</a></li>
+                <li><a href="{{ path('projects') }}">PROJECTS</a></li>
+                <li><a href="{{ path('skills') }}">SKILLS</a></li>
+                <li><a href="{{ path('contact') }}">CONTACT</a></li> 
+                <li><a href="{{ path('Signup') }}">ADMIN</a></li>
+                
+            </ul>
+        </nav>
+        <br><br>
+        <div class="main-text-2">
+            <h2>SKILLS</h2>
+        </div>
+        <div class="main-header">
+            <div class="line1-over">
+                <h5>77%</h5>
+            </div>
+            <div class="line1">
+                <h6>HTML</h6>
+            </div>
+            <div class="line2-over">
+                <h5>55%</h5>
+            </div>
+            <div class="line2">
+                <h6>CSS</h6>
+            </div>
+            <div class="line3-over">
+                <h5>75%</h5>
+            </div>
+            <div class="line3">
+                <h6>TAILWIND CSS + figma</h6>
+            </div>
+            <div class="line4-over">
+                <h5>65%</h5>
+            </div>
+            <div class="line4">
+                <h6> python</h6>
+            </div>
+            <div class="line5-over">
+                <h5>17%</h5>
+            </div>
+            <div class="line5">
+                <h6>java</h6>
+            </div>
+        </div>    
+    </section>
+{% endblock %}

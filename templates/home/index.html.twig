@@ -1,0 +1,45 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<section id="HOME">
+        <nav>
+            <div class="logo">MyPortfo<span>L</span>io</div>
+            <ul>
+                <li><a href="{{ path('home') }}">HOME</a></li>
+                <li><a href="{{ path('about') }}">ABOUT</a></li>
+                <li><a href="{{ path('projects') }}">PROJECTS</a></li>
+                <li><a href="{{ path('skills') }}">SKILLS</a></li>
+                <li><a href="{{ path('contact') }}">CONTACT</a></li>
+                <li><a href="{{ path('Signup') }}">ADMIN</a></li>
+               
+            </ul>
+        </nav>
+        <div class="main">
+            <div class="text-1">
+                <h1>hanen azzouzi</h1>
+                <h2>futur <span>Developer</span></h2>
+                <a href="#">Check Services Now</a>
+            </div>
+            <div class="Container">
+                <div class="Chevron"></div>
+                <div class="Chevron"></div>
+                <div class="Chevron"></div>
+                <span class="Text">Scroll down</span>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/?locale=fr_FR" target="_blank" class="icon fab fa-facebook"></a>
+                <a href="https://www.instagram.com/hanen.azzouzi/" target="_blank" class="icon fab fa-instagram"></a>
+                <a href="#" class="icon fab fa-twitter"></a>
+                <a href="#https://github.com/" class="icon fab fa-github"></a>
+                <a href="https://www.linkedin.com/in/hanen-azzouzi-472664294/" class="icon fab fa-linkedin"></a>
+            </div>
+            <div class="image-1">
+                <img src="{{ asset('Images/ME.jpg') }}">
+                <div class="circle"></div>
+            </div>
+        </div>
+    </section>
+    
+{% endblock %}

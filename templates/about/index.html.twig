@@ -1,0 +1,36 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}about{% endblock %}
+
+{% block content %}
+    <section id="ABOUT">
+        <nav>
+            <div class="logo">MyPortfo<span>L</span>io</div>
+            <ul>
+                <li><a href="{{ path('home') }}">HOME</a></li>
+                <li><a href="{{ path('about') }}">ABOUT</a></li>
+                <li><a href="{{ path('projects') }}">PROJECTS</a></li>
+                <li><a href="{{ path('skills') }}">SKILLS</a></li>
+                <li><a href="{{ path('contact') }}">CONTACT</a></li>
+                <li><a href="{{ path('Signup') }}">ADMIN</a></li>
+                 
+            </ul>
+        </nav>
+        <div class="main-1">
+            <h2>Hi I'm Hanen</h2>
+            <h6> End Developer</h6>
+            <p>
+            <br> And I'm A Student In A Faculty
+            <br>Of Computer Science In TUNISIA , I Created
+            <br>Successful Websites And They Looked Amazing.</p>
+            <a href="#">PROJECTS</a>
+            <a href="#">CONTACT</a>
+            <div class="image-2">
+                <img src="{{ asset('Images/b.jpg') }}">
+            </div>
+        </div>
+        <div class="main-text-1">
+            <h1>ABOUT ME</h1>
+        </div>
+    </section>
+{% endblock %}
